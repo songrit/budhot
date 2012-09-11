@@ -36,3 +36,30 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+gem 'gmindapp', :path => "../gmindapp" 
+gem "nokogiri"
+gem "mechanize"
+# gem "rmagick", :require => "RMagick", :platform => "ruby"
+gem "geokit"
+gem "rubyzip", :require => "zip/zip"
+gem "haml-rails"
+gem "mail"
+gem "prawn"
+gem "kaminari"
+gem "mongo", "1.5.1"
+gem "bson_ext", "1.5.1"
+gem "mongoid"
+gem "maruku"
+gem "wirble"
+gem "therubyracer"
+group :development, :test do
+  gem "debugger"
+  gem "rspec"
+  gem "rspec-rails"
+end
+
+gem "bcrypt-ruby", "~> 3.0.0"
+gem "omniauth-identity"
+group :development, :test do
+end

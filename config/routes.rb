@@ -1,4 +1,18 @@
 Budhot::Application.routes.draw do
+  match '/logout' => 'sessions#destroy', :as => 'logout'
+
+  match '/auth/failure' => 'sessions#failure'
+
+  match '/auth/:provider/callback' => 'sessions#create'
+
+  resources :sessions
+
+  resources :identities
+
+  match 'gmindapp(/:action(/:id))(.:format)' => 'gmindapp'
+
+  root :to => 'gmindapp#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

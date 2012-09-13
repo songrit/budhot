@@ -64,3 +64,6 @@ gem "bcrypt-ruby", "~> 3.0.0"
 gem "omniauth-identity"
 group :development, :test do
 end
+
+group :development, :test do
+end

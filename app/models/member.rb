@@ -10,7 +10,7 @@ class Member
   field :refer, :type => String
   field :dob, :type => Date
   field :sex, :type => String
-  field :has_one, :type => Address
+  has_one :address, as: :addressable
   field :phone, :type => String
   field :email, :type => String
   field :balance, :type => Float

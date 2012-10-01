@@ -7,7 +7,7 @@ class Hotel
   field :name, :type => String
   field :description, :type => String
   field :notice, :type => String
-  has_one :address
+  has_one :address, as: :addressable
   field :phone, :type => String
   field :email, :type => String
   field :www, :type => String

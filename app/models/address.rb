@@ -3,6 +3,7 @@ class Address
   include Mongoid::Document
   # gmindapp begin
   include Mongoid::Timestamps
+  belongs_to :addressable, polymorphic: true
   field :hid, :type => String
   field :house, :type => String
   field :trok, :type => String

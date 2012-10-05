@@ -9,7 +9,7 @@ Budhot::Application.routes.draw do
 
   resources :identities
 
-  match 'gmindapp(/:action(/:id))(.:format)' => 'gmindapp'
+  match 'gmindapp/init/:module/:service' => 'gmindapp#init'
 
   root :to => 'gmindapp#index'
 
@@ -68,5 +68,5 @@ Budhot::Application.routes.draw do
 
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
-  # match ':controller(/:action(/:id))(.:format)'
+  match ':controller(/:action(/:id))(.:format)'
 end

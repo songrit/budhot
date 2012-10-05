@@ -2,11 +2,15 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1273819432637" ID="ID_1098419600" MODIFIED="1334737006485" TEXT="gmindapp">
 <node CREATED="1273819462973" ID="ID_282419531" MODIFIED="1334737064016" POSITION="right" TEXT="services">
-<node CREATED="1275756501221" FOLDED="true" ID="ID_1720745721" MODIFIED="1334737065390" TEXT="account:user">
+<node CREATED="1275756501221" ID="ID_1720745721" MODIFIED="1349430857454" TEXT="account:user">
 <node CREATED="1278491598711" ID="ID_1662699954" MODIFIED="1278491602025" TEXT="role:m"/>
-<node CREATED="1279700865182" ID="ID_1266797279" MODIFIED="1330477813686" TEXT="link:info: /account"/>
-<node CREATED="1319015338880" ID="ID_189841353" MODIFIED="1330477824203" TEXT="link:pending tasks: /main/pending"/>
-<node CREATED="1275905802131" FOLDED="true" ID="ID_154000410" MODIFIED="1334737020797" TEXT="user:edit">
+<node CREATED="1279700865182" ID="ID_1266797279" MODIFIED="1330477813686" TEXT="link:info: /account">
+<node CREATED="1349430881332" ID="ID_1602175113" MODIFIED="1349430883925" TEXT="role: m"/>
+</node>
+<node CREATED="1319015338880" ID="ID_189841353" MODIFIED="1330477824203" TEXT="link:pending tasks: /main/pending">
+<node CREATED="1349430886459" ID="ID_600637762" MODIFIED="1349430888940" TEXT="role: m"/>
+</node>
+<node CREATED="1275905802131" FOLDED="true" ID="ID_154000410" MODIFIED="1349430902656" TEXT="user:edit">
 <node CREATED="1275756515843" ID="ID_1108188320" MODIFIED="1330477833918" TEXT="enter_user:edit">
 <icon BUILTIN="attach"/>
 <node CREATED="1282816887988" ID="ID_1767357871" MODIFIED="1282817769412" TEXT="rule:login? &amp;&amp; own_xmain?"/>
@@ -16,7 +20,7 @@
 </node>
 <node CREATED="1276062721100" ID="ID_982357600" MODIFIED="1276062727685" TEXT="rule: login?"/>
 </node>
-<node CREATED="1275756504750" FOLDED="true" ID="ID_1382277695" MODIFIED="1334737022478" TEXT="pwd:change password">
+<node CREATED="1275756504750" FOLDED="true" ID="ID_1382277695" MODIFIED="1349430906960" TEXT="pwd:change password">
 <node CREATED="1275756515843" ID="ID_1559014937" MODIFIED="1330477842311" TEXT="enter: edit">
 <icon BUILTIN="attach"/>
 <node CREATED="1282816887988" ID="ID_2948144" MODIFIED="1282817769412" TEXT="rule:login? &amp;&amp; own_xmain?"/>
@@ -28,7 +32,7 @@
 </node>
 <node CREATED="1279700865182" ID="ID_630918549" MODIFIED="1330477858086" TEXT="link:document: /main/doc"/>
 </node>
-<node CREATED="1275752678377" FOLDED="true" ID="ID_1348489452" MODIFIED="1348376621330" TEXT="admin:admin">
+<node CREATED="1275752678377" ID="ID_1348489452" MODIFIED="1349258516837" TEXT="admin:&#xe1c;&#xe39;&#xe49;&#xe14;&#xe39;&#xe41;&#xe25;&#xe23;&#xe30;&#xe1a;&#xe1a;">
 <node CREATED="1275752688167" ID="ID_229996461" MODIFIED="1275752690948" TEXT="role:a"/>
 <node CREATED="1302916180371" ID="ID_868306661" MODIFIED="1302916225911" TEXT="link: ws queue: /admin/ws"/>
 <node CREATED="1280374214975" ID="ID_980297856" MODIFIED="1330477881102" TEXT="link: users: /admin/users"/>
@@ -72,7 +76,7 @@
 <node CREATED="1273913393454" ID="ID_1088166839" MODIFIED="1330477987727" TEXT="link: pending tasks: /gma/pending"/>
 <node CREATED="1275790679363" ID="ID_829325467" MODIFIED="1278500851145" TEXT="link: logs: /gma/logs"/>
 </node>
-<node CREATED="1273706796854" FOLDED="true" ID="ID_1003882979" MODIFIED="1334737030780" TEXT="dev: developer">
+<node CREATED="1273706796854" FOLDED="true" ID="ID_1003882979" MODIFIED="1349430796947" TEXT="dev: &#xe1c;&#xe39;&#xe49;&#xe1e;&#xe31;&#xe12;&#xe19;&#xe32;">
 <node CREATED="1275373154914" ID="ID_340725299" MODIFIED="1275373158632" TEXT="role:d"/>
 <node CREATED="1273706824535" ID="ID_682167045" MODIFIED="1278500871367" TEXT="link: update app: /gma/update_app"/>
 <node CREATED="1315239767885" ID="ID_191614863" MODIFIED="1315239781578" TEXT="link: update services: /gma/update_services"/>
@@ -95,7 +99,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1348376362231" ID="ID_727601252" MODIFIED="1348376368669" TEXT="hotel">
+<node CREATED="1348376362231" ID="ID_727601252" MODIFIED="1349258532263" TEXT="hotel: &#xe42;&#xe23;&#xe07;&#xe41;&#xe23;&#xe21;">
 <node CREATED="1348376574067" ID="ID_1746843659" MODIFIED="1348376612040" TEXT="link: &#xe02;&#xe49;&#xe2d;&#xe21;&#xe39;&#xe25;&#xe42;&#xe23;&#xe07;&#xe41;&#xe23;&#xe21;: /hotel"/>
 <node CREATED="1348376373801" ID="ID_1021108671" MODIFIED="1348376457894" TEXT="new_hotel: &#xe1a;&#xe31;&#xe19;&#xe17;&#xe36;&#xe01;&#xe02;&#xe49;&#xe2d;&#xe21;&#xe39;&#xe25;&#xe42;&#xe23;&#xe07;&#xe41;&#xe23;&#xe21;"/>
 <node CREATED="1348376398905" ID="ID_1475922138" MODIFIED="1348376467308" TEXT="new_room: &#xe1a;&#xe31;&#xe19;&#xe17;&#xe36;&#xe01;&#xe02;&#xe49;&#xe2d;&#xe21;&#xe39;&#xe25;&#xe2b;&#xe49;&#xe2d;&#xe07;"/>
@@ -104,9 +108,16 @@
 <node CREATED="1348376414592" ID="ID_386430582" MODIFIED="1348376532849" TEXT="add_avail: &#xe1a;&#xe31;&#xe19;&#xe17;&#xe36;&#xe01;&#xe2b;&#xe49;&#xe2d;&#xe07;&#xe27;&#xe48;&#xe32;&#xe07;"/>
 <node CREATED="1348376534093" ID="ID_1837330911" MODIFIED="1348376543093" TEXT="rm_avail: &#xe25;&#xe1a;&#xe2b;&#xe49;&#xe2d;&#xe07;&#xe27;&#xe48;&#xe32;&#xe07;"/>
 </node>
-<node CREATED="1348376652374" ID="ID_838537921" MODIFIED="1348376654192" TEXT="member">
+<node CREATED="1348376652374" ID="ID_838537921" MODIFIED="1349258540559" TEXT="member: &#xe2a;&#xe21;&#xe32;&#xe0a;&#xe34;&#xe01;">
 <node CREATED="1348376930586" ID="ID_1192188345" MODIFIED="1348376950787" TEXT="link: &#xe02;&#xe49;&#xe2d;&#xe21;&#xe39;&#xe25;&#xe2a;&#xe21;&#xe32;&#xe0a;&#xe34;&#xe01;: /member"/>
-<node CREATED="1348376655981" ID="ID_243905678" MODIFIED="1348376668839" TEXT="subscribe: &#xe2a;&#xe21;&#xe31;&#xe04;&#xe23;&#xe2a;&#xe21;&#xe32;&#xe0a;&#xe34;&#xe01;"/>
+<node CREATED="1275905802131" ID="ID_862983448" MODIFIED="1349430956709" TEXT="subscribe: &#xe2a;&#xe21;&#xe31;&#xe04;&#xe23;&#xe2a;&#xe21;&#xe32;&#xe0a;&#xe34;&#xe01;">
+<node CREATED="1275756515843" ID="ID_1337168933" MODIFIED="1349430972267" TEXT="enter_member:&#xe1a;&#xe31;&#xe19;&#xe17;&#xe36;&#xe01;&#xe02;&#xe49;&#xe2d;&#xe21;&#xe39;&#xe25;">
+<icon BUILTIN="attach"/>
+</node>
+<node CREATED="1275756530989" ID="ID_1590908099" MODIFIED="1349430976181" TEXT="create_member">
+<icon BUILTIN="bookmark"/>
+</node>
+</node>
 <node CREATED="1348376977021" ID="ID_191639733" MODIFIED="1348376987971" TEXT="book: &#xe08;&#xe2d;&#xe07;&#xe42;&#xe23;&#xe07;&#xe41;&#xe23;&#xe21;"/>
 <node CREATED="1348376994986" ID="ID_489886419" MODIFIED="1348377005482" TEXT="cancel: &#xe22;&#xe01;&#xe40;&#xe25;&#xe34;&#xe01;&#xe01;&#xe32;&#xe23;&#xe08;&#xe2d;&#xe07;"/>
 <node CREATED="1348377083957" ID="ID_452815023" MODIFIED="1348377095601" TEXT="review: &#xe1b;&#xe23;&#xe30;&#xe40;&#xe21;&#xe34;&#xe19;&#xe1c;&#xe25;&#xe42;&#xe23;&#xe07;&#xe41;&#xe23;&#xe21;"/>
@@ -145,7 +156,7 @@
 <icon BUILTIN="edit"/>
 </node>
 </node>
-<node CREATED="1292122236285" ID="ID_959987887" MODIFIED="1349088304293" TEXT="address">
+<node CREATED="1292122236285" FOLDED="true" ID="ID_959987887" MODIFIED="1349258498293" TEXT="address">
 <node CREATED="1349088564904" ID="ID_123471139" MODIFIED="1349088576253" TEXT="belongs_to :addressable, polymorphic: true">
 <icon BUILTIN="edit"/>
 </node>

@@ -37,7 +37,7 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 
-gem 'gmindapp', :path => "../gmindapp" 
+gem 'gmindapp', :git => "git://github.com/songrit/gmindapp.git" 
 gem "nokogiri"
 gem "mechanize"
 # gem "rmagick", :require => "RMagick", :platform => "ruby"
@@ -53,7 +53,7 @@ gem "mongoid"
 gem "redcarpet"
 # gem "maruku"
 gem "wirble"
-gem "therubyracer"
+gem "therubyracer", :platform => :ruby 
 group :development, :test do
   gem "debugger"
   gem "rspec"
